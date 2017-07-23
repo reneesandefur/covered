@@ -51,7 +51,6 @@ button.navbar-toggler.navbar-toggler-right {
 .logo {
   margin-top: 0;
   margin-bottom: 0;
-  padding-right: 20px;
 }
 
 .frosty {
@@ -59,14 +58,13 @@ button.navbar-toggler.navbar-toggler-right {
   font-family: 'Dosis', sans-serif;
   color: black;
   height: 70%;
-  opacity: .8;
+  opacity: .9;
   width: 40%;
+  margin-top: 10%;
   padding-top: 3%;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 25%;
-  margin-top: 10%;
-  margin-bottom: 15%;
   margin-left: auto;
   text-align: center;
   box-shadow: 0 0 1px #000000;
@@ -101,6 +99,10 @@ button.navbar-toggler.navbar-toggler-right {
   padding-top: 8x;
   padding-bottom: 8px;
   font-weight: 800;
+}
+
+.hero-p {
+  margin: auto;
 }
 
 .clr {
