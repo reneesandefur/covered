@@ -30,8 +30,8 @@
 .hero {
   border-top: 2px solid #d3d3d3;
   margin-top: 0;  
-  background: image_url('hero4.jpg');
-  background: image_url('hero4.jpg') no-repeat center center relative;
+  background: image_url('hero2.jpg');
+  background: image_url('hero2.jpg') no-repeat center center relative;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -40,7 +40,6 @@
   box-shadow: 0px -1px 1px #2a2a2a;
   border-top: solid 1px #d3d3d3;
   z-index: -2;
-  
 }
 
 button.navbar-toggler.navbar-toggler-right {
@@ -78,15 +77,6 @@ button.navbar-toggler.navbar-toggler-right {
   width: 10%;
   text-align: center;
   border-color: #48c9b0;
-}
-
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
 }
 
 .hire {
