@@ -5,9 +5,9 @@ html, body {
   height: 100%;
 }
 .navbar {
-  background-color: white; 
+  background-color: #ffffff; 
   border-top: 1px solid #d3d3d3;
-  border-bottom: 1px solid #d3d3d3;
+  border-bottom: 1px solid #ff6600;
   padding-top: 0;
   padding-bottom: 0;
   width: 100%;
@@ -18,19 +18,26 @@ html, body {
 
 .login {
   border-color: white;
+  color: #50baa9;
   padding-bottom: 0;
 }
 
 .sign-up {
   border-width: 1px;
   background-color:white;
-  color: #50baa9;
-  border-color: #50baa9;
+  color: #ff6600;
+  border-color: #ff6600;
   margin-right: 3px;
 }
 
+.login:hover, .sign-up:hover, .hire:hover, .get-hired:hover {
+  background-color: #ff6600;
+  border-color: #a9a9a9;
+  color: #ffffff;
+}
+
 .hero {
-  border-top: 2px solid #d3d3d3;
+  border-top: 2px solid #ff6600;
   margin-top: 0;  
   background: image_url('heronew.jpeg');
   background: image_url('heronew.jpeg') no-repeat center center relative;
@@ -44,8 +51,8 @@ html, body {
   z-index: -2;
 }
 
-button.navbar-toggler.navbar-toggler-right {
-  margin-top: 7%;
+.hero-p {
+  margin: auto;
 }
 
 .logo {
@@ -69,11 +76,17 @@ button.navbar-toggler.navbar-toggler-right {
   padding-bottom: 10%;
   margin-left: auto;
   text-align: center;
-  box-shadow: 0 0 1px #000000;
+  box-shadow: 0 0 4px #a9a9a9;
   z-index: 0;  
 }
 
 .firstrule {
+  width: 10%;
+  text-align: center;
+  border-color: #ff6600;
+}
+
+.secondrule {
   width: 10%;
   text-align: center;
   border-color: #50baa9;
@@ -95,18 +108,14 @@ button.navbar-toggler.navbar-toggler-right {
 .get-hired {
   border-width: 1px;
   background-color:white;
-  color: #50baa9;
-  border-color: #50baa9;
+  color: #ff6600;
+  border-color: #ff6600;
   margin: auto;
   font-size: 24px;
   padding-top: 8x;
   padding-bottom: 8px;
   font-weight: 800;
   box-shadow: 0 3px 3px #a9a9a9;
-}
-
-.hero-p {
-  margin: auto;
 }
 
 .clr {
@@ -117,9 +126,12 @@ button.navbar-toggler.navbar-toggler-right {
   padding-top: 0;
   margin: auto;
 }
+
 .how-it-works {
+  border-top: 1px solid #ff6600;
   background-color: #dcdcdc;
 }
+
 .how-to {
   font-family: "Dosis", sans-serif;
   color: #000000;
@@ -130,10 +142,27 @@ button.navbar-toggler.navbar-toggler-right {
 }
 
 .numbers {
-  color: #a9a9a9;
-  border: 1px solid #a9a9a9;
+  color: #ff6600;
+  border: 1px solid #ff6600;
   width: 40px;
   height: 40px;
   border-radius: 100%;
   margin-right: 10px;
+}
+
+.description-details {
+  font-size: 18px;
+}
+
+.service-list-index {
+  border-top: 1px solid #ff6600;
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+}
+
+.services-index {
+  box-shadow: 0 0 12px #a9a9a9;
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+  width: 60%;
 }
