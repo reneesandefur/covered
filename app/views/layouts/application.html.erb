@@ -9,31 +9,15 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-     <a class="navbar-brand" href="#">
-    <div class="row">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <%= image_tag 'scriptlogo.png', class: 'offset-2' %>
-    </div>  
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#"></a>
-      </li>
-    </ul>
-    <span class="navbar-text">
-      <div class="row">
-        <%= link_to 'Login', '#', class: 'btn btn-secondary login' %>
-        <%= link_to 'Sign Up', '#', class: 'btn btn-primary sign-up' %>
-      </div>
-    </span>
-  </div>
-</nav>
-</div>
-    
     
     <%= yield %>
+    
+    <div class="wrapper">
+      <br />
+      <h4 class="footer-header"><b>Follow us!</b></h4>
+      <div class="push"></div>
+    </div>
+    <footer class="footer"></footer>
+
   </body>
 </html>

@@ -1,6 +1,12 @@
-<br />
-<br />
+<div class="testnav">
+  <%= image_tag 'scriptlogo.png', class: 'logo' %>
+  <div class="row testnav-buttons">
+    <%= link_to 'Login', '#', class: 'login' %>
+    <%= link_to 'Sign Up', '#', class: 'sign-up' %>
+  </div>
+</div>
 <div class="hero">
+  <br />
   <div class="container frosty col-xs-6 offset-3">
     <br />
     <h1><b>Let's Grow Your Business</b></h1>
@@ -18,61 +24,72 @@
 <div class="service-list-index">
   <br />
   <br />
-  <div class="container services-index">
+  <div class="container">
+    <h1 class="service-header">Connect with the best in one place</h1>
+    <h5 class="services-sub">We partner with top freelancers, contractors, startups and small business<br />
+    to ensure your satisfaction everytime</h5>
     <br />
     <div class="row office-index">
-      <div class="col-xs-10 col-lg-4">
+      <div class="col-xs-10 col-lg-3">
         <%= image_tag 'list_icons_2/assistant.png' %>
         <h5><b>Personal/<br />
         Virtual Assistant</b></h5>
-        <p class="service-details-index">Whether you need someone behind a computer or<br />
-        boots on the ground, we've partnered with<br />
+        <p class="service-details-index">Whether you need someone behind a computer or
+        boots on the ground, we've partnered with
         awesome assistants to meet your needs</p>
-        <br />
-        <%= link_to 'Learn More', '#', class: 'book-now' %>
+        <%= link_to 'Hire Assistant', '#', class: 'book-now' %>
       </div>
-      <div  class="col-xs-10 col-lg-4">
-        <%= image_tag 'list_icons_2/bookkeeper.png' %>
-        <h5><b>Bookkeeping/<br />
-        Accounting</b></h5>
-        <p class="service-details-index">Tell us about your business structure and<br />
-        bookkeeping needs. We'll get you linked up<br />
-        with a great accountant or firm</p>
-        <br />
-        <%= link_to 'Learn More', '#', class: 'book-now' %>
-      </div>
-      <div class="col-xs-10 col-lg-4">
-        <%= image_tag 'list_icons_2/dataentry.png' %>
-        <br />
-        <h5><b>Data Entry</b></h5>
-        <p class="service-details-index">It can be a rigorous process but<br />
-        someone has to do it. Our professional partners have<br />
-        the knowledge, experience and quick fingers<br />
-        to get your job done</p>
-        <br />
-        <%= link_to 'Learn More', '#', class: 'book-now' %>
-      </div>
-    </div>
-    <br />
-    <div class="row tech-index">
-      <div  class="col-xs-10 col-lg-4">
+      <div  class="col-xs-10 col-lg-3">
         <%= image_tag 'list_icons_2/developer.png' %>
         <h5><b>Web/Software<br />
         Developer</b></h5>
-        <p class="service-details-index">If you're looking to develop a new website or app<br />
-        try out one of the great people or<br />
+        <p class="service-details-index">If you're looking to develop a new website or app
+        try out one of the great people or
         teams we work with</p>
         <br />
-        <%= link_to 'Learn More', '#', class: 'book-now' %>
+        <%= link_to 'Hire Developer', '#', class: 'book-now' %>
       </div>
-      <div  class="col-xs-10 col-lg-4">
+      <div  class="col-xs-10 col-lg-3">
         <%= image_tag 'list_icons_2/graphic.png' %>
         <br />
+        <br />
         <h5><b>Graphic Designer</b></h5>
-        <p class="service-details-index">Get inspired.<br />
-        From logos to signs and everything in between<br />
+        <p class="service-details-index">Get inspired.
+        From logos to signs and everything in between
         we have the right partner for your company</p>
         <br />
+        <%= link_to 'Hire Graphic Designer', '#', class: 'book-now' %>
+      </div>
+    <br />
+      <div class="col-xs-10 col-lg-3">
+        <%= image_tag 'list_icons_2/move.png' %>
+        <br />
+        <br />
+        <h5><b>Office Relocation</b></h5>
+        <p class="service-details-index">You have enough to worry about. 
+        Link up with the best movers in your area and relax on moving day</p>
+        <br />
+        <%= link_to 'Hire Mover', '#', class: 'book-now' %>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <%= link_to 'See More Services', '#', class: 'more-services-index' %>
+    <br />
+    
+    
+     
+
+   
+  <!-- <div class="col-xs-10 col-lg-3">
+        <%= image_tag 'list_icons_2/dataentry.png' %>
+        <br />
+        <h5><b>Data Entry</b></h5>
+        <p class="service-details-index">It can be a rigorous process but
+        someone has to do it. Our professional partners have
+        the knowledge, experience and quick fingers
+        to get your job done</p>
         <br />
         <%= link_to 'Learn More', '#', class: 'book-now' %>
       </div>
@@ -84,19 +101,23 @@
         <%= link_to 'Learn More', '#', class: 'book-now' %>
       </div>
     </div>
+          <div  class="col-xs-10 col-lg-4">
+        <%= image_tag 'list_icons_2/graphic.png' %>
+        <br />
+        <h5><b>Graphic Designer</b></h5>
+        <p class="service-details-index">Get inspired.<br />
+        From logos to signs and everything in between<br />
+        we have the right partner for your company</p>
+        <br />
+        <br />
+        <%= link_to 'Hire Graphic Designer', '#', class: 'book-now' %>
+      </div>
     <br />
     <div class="row misc-index">
       <div class="col-xs-10 col-lg-4">
         <%= image_tag 'list_icons_2/event.png' %>
         <br />
         <h5><b>Event Planner</b></h5>
-        <p class="service-details-index"></p>
-        <%= link_to 'Learn More', '#', class: 'book-now' %>
-      </div>
-      <div class="col-xs-10 col-lg-4">
-        <%= image_tag 'list_icons_2/move.png' %>
-        <br />
-        <h5><b>Office Relocation</b></h5>
         <p class="service-details-index"></p>
         <%= link_to 'Learn More', '#', class: 'book-now' %>
       </div>
@@ -108,7 +129,7 @@
         <%= link_to 'Learn More', '#', class: 'book-now' %>
         <br />
       </div>
-    </div>
+    </div>-->
     <br />
     <br />
   </div>
@@ -116,6 +137,7 @@
   <br />
 </div>
 <div class="how-it-works">
+<br />
 <br />
   <div class="container how-to">
     <h1 class="text-center"><b>How it Works</b></h1>
