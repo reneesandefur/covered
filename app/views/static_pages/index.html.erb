@@ -17,69 +17,104 @@
 </div>
 <div class="service-list-index">
   <br />
-  <h1>Services</h1>
   <br />
   <div class="container services-index">
     <br />
-    <h3>Office</h3>
-    <hr class="secondrule" />
     <div class="row office-index">
       <div class="col-xs-10 col-lg-4">
-        <h5>Personal/<br />
-        Virtual Assistant</h5>
-        <p class="service-details-index"></p>
+        <%= image_tag 'list_icons_2/assistant.png' %>
+        <h5><b>Personal/<br />
+        Virtual Assistant</b></h5>
+        <p class="service-details-index">Whether you need someone behind a computer or<br />
+        boots on the ground, we've partnered with<br />
+        awesome assistants to meet your needs</p>
+        <br />
+        <%= link_to 'Learn More', '#', class: 'book-now' %>
       </div>
       <div  class="col-xs-10 col-lg-4">
-        <h5>Bookkeeping/<br />
-        Accounting</h5>
-        <p class="service-details-index"></p>
+        <%= image_tag 'list_icons_2/bookkeeper.png' %>
+        <h5><b>Bookkeeping/<br />
+        Accounting</b></h5>
+        <p class="service-details-index">Tell us about your business structure and<br />
+        bookkeeping needs. We'll get you linked up<br />
+        with a great accountant or firm</p>
+        <br />
+        <%= link_to 'Learn More', '#', class: 'book-now' %>
       </div>
-      <div  class="col-xs-10 col-lg-4">
-        <h5>Data Entry</h5>
-        <p class="service-details-index"></p>
+      <div class="col-xs-10 col-lg-4">
+        <%= image_tag 'list_icons_2/dataentry.png' %>
+        <br />
+        <h5><b>Data Entry</b></h5>
+        <p class="service-details-index">It can be a rigorous process but<br />
+        someone has to do it. Our professional partners have<br />
+        the knowledge, experience and quick fingers<br />
+        to get your job done</p>
+        <br />
+        <%= link_to 'Learn More', '#', class: 'book-now' %>
       </div>
     </div>
     <br />
-    <h3>Tech</h3>
-    <hr class="secondrule" />
     <div class="row tech-index">
       <div  class="col-xs-10 col-lg-4">
-        <h5>Web/Software<br />
-        Developer</h5>
-        <p class="service-details-index"></p>
+        <%= image_tag 'list_icons_2/developer.png' %>
+        <h5><b>Web/Software<br />
+        Developer</b></h5>
+        <p class="service-details-index">If you're looking to develop a new website or app<br />
+        try out one of the great people or<br />
+        teams we work with</p>
+        <br />
+        <%= link_to 'Learn More', '#', class: 'book-now' %>
       </div>
       <div  class="col-xs-10 col-lg-4">
-        <h5>Graphic Designer</h5>
-        <p class="service-details-index"></p>
+        <%= image_tag 'list_icons_2/graphic.png' %>
+        <br />
+        <h5><b>Graphic Designer</b></h5>
+        <p class="service-details-index">Get inspired.<br />
+        From logos to signs and everything in between<br />
+        we have the right partner for your company</p>
+        <br />
+        <br />
+        <%= link_to 'Learn More', '#', class: 'book-now' %>
       </div>
       <div class="col-xs-10 col-lg-4">
-        <h5>UX/UI</h4=5>
+        <%= image_tag 'list_icons_2/ux-ui.png' %>
+        <br />
+        <h5><b>UX/UI</b></h5>
         <p class="service-details-index"></p>
+        <%= link_to 'Learn More', '#', class: 'book-now' %>
       </div>
     </div>
     <br />
-    <h3>Miscellaneous</h3>
-    <hr class="secondrule"/>
     <div class="row misc-index">
       <div class="col-xs-10 col-lg-4">
-        <h5>Event Planner</h5>
+        <%= image_tag 'list_icons_2/event.png' %>
+        <br />
+        <h5><b>Event Planner</b></h5>
         <p class="service-details-index"></p>
+        <%= link_to 'Learn More', '#', class: 'book-now' %>
       </div>
       <div class="col-xs-10 col-lg-4">
-        <h5>Office Mover</h5>
+        <%= image_tag 'list_icons_2/move.png' %>
+        <br />
+        <h5><b>Office Relocation</b></h5>
         <p class="service-details-index"></p>
+        <%= link_to 'Learn More', '#', class: 'book-now' %>
       </div>
       <div class="col-xs-10 col-lg-4">
-        <h5>Cleaning</h5>
+        <%= image_tag 'list_icons_2/maintenance.png' %>
+        <h5><b>Cleaning/<br />
+        Maintenance</b></h5>
         <p class="service-details-index"></p>
+        <%= link_to 'Learn More', '#', class: 'book-now' %>
         <br />
       </div>
     </div>
+    <br />
+    <br />
   </div>
+  <br />
+  <br />
 </div>
-  
-  <br />
-  <br />
 <div class="how-it-works">
 <br />
   <div class="container how-to">
@@ -90,7 +125,7 @@
     <br />
     <div class="row">
       <div class="col-xs-12 col-lg-4 offset-1">
-        <%= image_tag 'describe.png', class: 'icon' %>  
+        <%= image_tag 'how_it_works_icons/describe.png', class: 'icon' %>  
       </div>
       <div class="col-xs-12 col-lg-7">
         <div class="row">
@@ -121,7 +156,7 @@
         </div>
       </div>
       <div class="col-xs-12 col-lg-4">
-        <%= image_tag 'connect.png', class: 'icon' %>  
+        <%= image_tag 'how_it_works_icons/connect.png', class: 'icon' %>  
       </div>
     </div>
     <br />
@@ -129,7 +164,7 @@
     <br />
     <div class="row">
       <div class="col-xs-12 col-lg-4 offset-1">
-        <%= image_tag 'wrench.png', class: 'icon' %>  
+        <%= image_tag 'how_it_works_icons/wrench.png', class: 'icon' %>  
       </div>
       <div class="col-xs-12 col-lg-7">
         <div class = "row">
