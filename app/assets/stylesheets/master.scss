@@ -48,7 +48,14 @@ html, body {
   margin-top: 20px;
 }
 
-.login:hover, .sign-up:hover, .hire:hover, .get-hired:hover {
+.login:hover, .sign-up:hover {
+  text-decoration: none;
+  background-color: none;
+  border-color: #a9a9a9;
+  color: #ffffff;
+}
+.hire:hover, .get-hired:hover {
+  text-decoration: none;
   background-color: #ff6600;
   border-color: #a9a9a9;
   color: #ffffff;
